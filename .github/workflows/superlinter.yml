@@ -4,7 +4,7 @@ on: push
 jobs:
   super-lint:
     name: lint code base 
-    runs-on : ubunto latest
+    runs-on : ubuntu latest
 
     steps:
     - name: Checkout code
